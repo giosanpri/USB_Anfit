@@ -1,0 +1,2070 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Propuesta Ejecutiva Sede TECNOVA 2026 | Universidad de San Buenaventura</title>
+  <meta name="description" content="Propuesta institucional para la asignación de espacios en la Universidad de San Buenaventura para el I Congreso Internacional de Innovación Tecnológica Aplicada - TECNOVA 2026 (Red TEC-RED).">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome & Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <style>
+    :root {
+      /* Palette: San Buenaventura + TECNOVA Tech */
+      --usb-orange: #E65100;
+      --usb-orange-light: #FF833A;
+      --usb-red: #B71C1C;
+      --usb-gold: #F59E0B;
+      --navy-dark: #0A192F;
+      --navy-surface: #112240;
+      --navy-card: #1E293B;
+      --blue-accent: #0284C7;
+      --blue-light: #38BDF8;
+      --emerald-accent: #10B981;
+      --purple-accent: #8B5CF6;
+      --text-main: #0F172A;
+      --text-muted: #475569;
+      --text-light: #F8FAFC;
+      --bg-main: #F8FAFC;
+      --bg-alt: #F1F5F9;
+      --border-color: #E2E8F0;
+      --border-focus: #CBD5E1;
+      --card-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.08), 0 8px 10px -6px rgba(15, 23, 42, 0.04);
+      --card-hover-shadow: 0 20px 35px -10px rgba(15, 23, 42, 0.14), 0 10px 15px -5px rgba(15, 23, 42, 0.06);
+      --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: var(--bg-main);
+      color: var(--text-main);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      color: var(--navy-dark);
+      letter-spacing: -0.02em;
+    }
+
+    /* Container */
+    .container {
+      width: 100%;
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* Top Utility Bar */
+    .top-bar {
+      background: linear-gradient(90deg, #8B0000 0%, #B71C1C 40%, #E65100 100%);
+      color: #fff;
+      padding: 8px 0;
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+
+    .top-bar .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .badge-usb {
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(4px);
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 700;
+    }
+
+    .action-buttons {
+      display: flex;
+      gap: 8px;
+    }
+
+    .btn-action-sm {
+      background: rgba(255, 255, 255, 0.15);
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      padding: 4px 12px;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: var(--transition);
+      text-decoration: none;
+    }
+
+    .btn-action-sm:hover {
+      background: #fff;
+      color: var(--usb-red);
+    }
+
+    /* Header Nav */
+    header {
+      background: #ffffff;
+      border-bottom: 1px solid var(--border-color);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+    }
+
+    .header-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 0;
+    }
+
+    .logos-brand {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .header-usb-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      border-right: 2px solid var(--border-color);
+      padding-right: 20px;
+    }
+
+    .header-usb-logo {
+      height: 48px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    .usb-logo-tag {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .usb-logo-tag .title {
+      font-size: 1.05rem;
+      font-weight: 800;
+      color: var(--usb-red);
+      line-height: 1.1;
+    }
+
+    .usb-logo-tag .sub {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .tecnova-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .header-tecred-logo {
+      height: 40px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    .brand-pill {
+      background: var(--navy-dark);
+      color: #fff;
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 6px;
+      display: inline-block;
+    }
+
+    .brand-pill span {
+      color: var(--usb-orange-light);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: var(--text-muted);
+      font-weight: 600;
+      font-size: 0.9rem;
+      transition: var(--transition);
+    }
+
+    .nav-links a:hover {
+      color: var(--usb-orange);
+    }
+
+    /* Executive Hero */
+    .hero-executive {
+      background: linear-gradient(135deg, var(--navy-dark) 0%, #0F2744 60%, #1A365D 100%);
+      color: #fff;
+      padding: 60px 0 70px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-executive::before {
+      content: '';
+      position: absolute;
+      top: -20%;
+      right: -10%;
+      width: 550px;
+      height: 550px;
+      background: radial-gradient(circle, rgba(230, 81, 0, 0.25) 0%, rgba(2, 132, 199, 0) 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 40px;
+      align-items: center;
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero-tagline {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 6px 16px;
+      border-radius: 30px;
+      font-size: 0.82rem;
+      color: var(--usb-orange-light);
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    .hero-title {
+      color: #fff;
+      font-size: 2.5rem;
+      line-height: 1.18;
+      margin-bottom: 18px;
+    }
+
+    .hero-title span.highlight {
+      background: linear-gradient(90deg, #FF833A 0%, #FBBF24 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-desc {
+      font-size: 1.05rem;
+      color: #CBD5E1;
+      margin-bottom: 28px;
+      max-width: 620px;
+    }
+
+    .hero-cta-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+
+    .btn-primary-hero {
+      background: linear-gradient(135deg, var(--usb-orange) 0%, #D84315 100%);
+      color: #fff;
+      border: none;
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      box-shadow: 0 8px 20px rgba(230, 81, 0, 0.4);
+      transition: var(--transition);
+    }
+
+    .btn-primary-hero:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 25px rgba(230, 81, 0, 0.5);
+    }
+
+    .btn-outline-hero {
+      background: rgba(255, 255, 255, 0.08);
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      padding: 14px 24px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      transition: var(--transition);
+    }
+
+    .btn-outline-hero:hover {
+      background: rgba(255, 255, 255, 0.18);
+    }
+
+    /* Hero Summary Card */
+    .hero-summary-card {
+      background: rgba(17, 34, 64, 0.85);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 16px;
+      padding: 30px;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    }
+
+    .summary-card-header {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      padding-bottom: 15px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .summary-card-header h3 {
+      color: #fff;
+      font-size: 1.15rem;
+    }
+
+    .metric-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .metric-box {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 10px;
+      padding: 14px 16px;
+      border-left: 3px solid var(--usb-orange);
+    }
+
+    .metric-number {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: #fff;
+      font-family: 'Space Grotesk', sans-serif;
+    }
+
+    .metric-label {
+      font-size: 0.78rem;
+      color: #94A3B8;
+      font-weight: 500;
+      line-height: 1.3;
+    }
+
+    /* Key Value Banner */
+    .key-value-strip {
+      background: #ffffff;
+      border-bottom: 1px solid var(--border-color);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.02);
+      position: relative;
+      z-index: 10;
+    }
+
+    .value-strip-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .value-item {
+      padding: 24px 20px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .value-item:not(:last-child) {
+      border-right: 1px solid var(--border-color);
+    }
+
+    .value-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      background: rgba(230, 81, 0, 0.1);
+      color: var(--usb-orange);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+      flex-shrink: 0;
+    }
+
+    .value-item:nth-child(2) .value-icon {
+      background: rgba(2, 132, 199, 0.1);
+      color: var(--blue-accent);
+    }
+    .value-item:nth-child(3) .value-icon {
+      background: rgba(16, 185, 129, 0.1);
+      color: var(--emerald-accent);
+    }
+    .value-item:nth-child(4) .value-icon {
+      background: rgba(139, 92, 246, 0.1);
+      color: var(--purple-accent);
+    }
+
+    .value-title {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--navy-dark);
+      margin-bottom: 2px;
+    }
+
+    .value-sub {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      line-height: 1.3;
+    }
+
+    /* Section Global */
+    section {
+      padding: 70px 0;
+    }
+
+    .section-bg-alt {
+      background-color: var(--bg-alt);
+    }
+
+    .section-header {
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto 50px;
+    }
+
+    .section-badge {
+      display: inline-block;
+      padding: 4px 14px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 12px;
+    }
+
+    .badge-usb-subtle {
+      background: rgba(230, 81, 0, 0.1);
+      color: var(--usb-orange);
+      border: 1px solid rgba(230, 81, 0, 0.2);
+    }
+
+    .badge-blue-subtle {
+      background: rgba(2, 132, 199, 0.1);
+      color: var(--blue-accent);
+      border: 1px solid rgba(2, 132, 199, 0.2);
+    }
+
+    .section-title {
+      font-size: 2.1rem;
+      line-height: 1.25;
+      margin-bottom: 16px;
+    }
+
+    .section-description {
+      font-size: 1.02rem;
+      color: var(--text-muted);
+    }
+
+    /* Division of Commitments Table & Matrix */
+    .comparison-wrapper {
+      background: #ffffff;
+      border-radius: 16px;
+      border: 1px solid var(--border-color);
+      box-shadow: var(--card-shadow);
+      overflow: hidden;
+      margin-bottom: 40px;
+    }
+
+    .comparison-header {
+      background: linear-gradient(90deg, var(--navy-dark) 0%, #1A365D 100%);
+      color: #fff;
+      padding: 24px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .comparison-header h3 {
+      color: #fff;
+      font-size: 1.3rem;
+    }
+
+    .shared-pill {
+      background: rgba(16, 185, 129, 0.2);
+      border: 1px solid #10B981;
+      color: #A7F3D0;
+      padding: 6px 14px;
+      border-radius: 30px;
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+
+    .matrix-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+    }
+
+    .matrix-table th {
+      background: #F8FAFC;
+      padding: 16px 20px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--navy-dark);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .matrix-table td {
+      padding: 18px 20px;
+      border-bottom: 1px solid var(--border-color);
+      font-size: 0.92rem;
+      vertical-align: middle;
+    }
+
+    .matrix-table tbody tr:hover {
+      background-color: #F8FAFC;
+    }
+
+    .institution-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      color: var(--navy-dark);
+    }
+
+    .table-mini-logo {
+      height: 28px;
+      width: 28px;
+      object-fit: contain;
+      border-radius: 4px;
+      background: #fff;
+      padding: 2px;
+      border: 1px solid var(--border-color);
+      flex-shrink: 0;
+    }
+
+    .status-covered {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--emerald-accent);
+      font-weight: 700;
+      font-size: 0.85rem;
+      background: rgba(16, 185, 129, 0.1);
+      padding: 4px 10px;
+      border-radius: 6px;
+    }
+
+    .status-usb-req {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--usb-orange);
+      font-weight: 700;
+      font-size: 0.85rem;
+      background: rgba(230, 81, 0, 0.1);
+      padding: 4px 10px;
+      border-radius: 6px;
+    }
+
+    /* Benefits Grid */
+    .benefits-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .benefit-card {
+      background: #ffffff;
+      border-radius: 14px;
+      border: 1px solid var(--border-color);
+      padding: 28px;
+      box-shadow: var(--card-shadow);
+      transition: var(--transition);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    .benefit-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--card-hover-shadow);
+      border-color: var(--usb-orange-light);
+    }
+
+    .benefit-card.highlight-card {
+      border: 2px solid var(--usb-orange);
+      background: linear-gradient(180deg, #FFFFFF 0%, #FFF9F5 100%);
+    }
+
+    .benefit-icon-box {
+      width: 52px;
+      height: 52px;
+      border-radius: 12px;
+      background: rgba(230, 81, 0, 0.1);
+      color: var(--usb-orange);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+      margin-bottom: 20px;
+    }
+
+    .benefit-card:nth-child(2) .benefit-icon-box {
+      background: rgba(2, 132, 199, 0.1);
+      color: var(--blue-accent);
+    }
+    .benefit-card:nth-child(3) .benefit-icon-box {
+      background: rgba(16, 185, 129, 0.1);
+      color: var(--emerald-accent);
+    }
+    .benefit-card:nth-child(4) .benefit-icon-box {
+      background: rgba(139, 92, 246, 0.1);
+      color: var(--purple-accent);
+    }
+    .benefit-card:nth-child(5) .benefit-icon-box {
+      background: rgba(217, 119, 6, 0.1);
+      color: var(--usb-gold);
+    }
+    .benefit-card:nth-child(6) .benefit-icon-box {
+      background: rgba(225, 29, 72, 0.1);
+      color: var(--usb-red);
+    }
+
+    .benefit-title {
+      font-size: 1.15rem;
+      margin-bottom: 12px;
+      color: var(--navy-dark);
+    }
+
+    .benefit-text {
+      color: var(--text-muted);
+      font-size: 0.92rem;
+      margin-bottom: 16px;
+      flex-grow: 1;
+    }
+
+    .benefit-points {
+      list-style: none;
+      border-top: 1px dashed var(--border-color);
+      padding-top: 14px;
+    }
+
+    .benefit-points li {
+      font-size: 0.84rem;
+      color: var(--text-main);
+      margin-bottom: 8px;
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+    }
+
+    .benefit-points li i {
+      color: var(--emerald-accent);
+      margin-top: 2px;
+    }
+
+    /* Springer & Research Showcase */
+    .springer-box {
+      background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
+      color: #fff;
+      border-radius: 16px;
+      padding: 40px;
+      margin-top: 40px;
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 40px;
+      align-items: center;
+      box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+    }
+
+    .springer-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(251, 191, 36, 0.15);
+      border: 1px solid #FBBF24;
+      color: #FCD34D;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    .springer-box h3 {
+      color: #fff;
+      font-size: 1.7rem;
+      margin-bottom: 15px;
+    }
+
+    .springer-box p {
+      color: #94A3B8;
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    .springer-features {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .springer-feature-card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 16px;
+      border-radius: 10px;
+    }
+
+    .springer-feature-card h4 {
+      color: #fff;
+      font-size: 0.95rem;
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .springer-feature-card p {
+      font-size: 0.82rem;
+      color: #CBD5E1;
+      margin: 0;
+    }
+
+    /* Spatial Requirements Section */
+    .space-req-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+
+    .space-card {
+      background: #ffffff;
+      border-radius: 16px;
+      border: 1px solid var(--border-color);
+      box-shadow: var(--card-shadow);
+      padding: 32px;
+    }
+
+    .space-header {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin-bottom: 24px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .space-icon {
+      width: 50px;
+      height: 50px;
+      border-radius: 12px;
+      background: rgba(230, 81, 0, 0.12);
+      color: var(--usb-orange);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+    }
+
+    .space-title-block h3 {
+      font-size: 1.25rem;
+      margin-bottom: 2px;
+    }
+
+    .space-title-block p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+
+    .req-list {
+      list-style: none;
+    }
+
+    .req-list li {
+      padding: 12px 0;
+      border-bottom: 1px solid #F1F5F9;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.92rem;
+    }
+
+    .req-list li span.label {
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .req-list li span.value {
+      font-weight: 700;
+      color: var(--navy-dark);
+      text-align: right;
+    }
+
+    /* Special Activities Block (Compensar + Talleres + Emprendimiento) */
+    .activities-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-top: 30px;
+    }
+
+    .activity-card {
+      background: #ffffff;
+      border-radius: 14px;
+      border: 1px solid var(--border-color);
+      overflow: hidden;
+      box-shadow: var(--card-shadow);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .activity-header {
+      padding: 20px 24px;
+      color: #fff;
+    }
+
+    .activity-header.compensar {
+      background: linear-gradient(135deg, #E65100 0%, #F57C00 100%);
+    }
+
+    .activity-header.workshops {
+      background: linear-gradient(135deg, #0284C7 0%, #0369A1 100%);
+    }
+
+    .activity-header.entrepreneurship {
+      background: linear-gradient(135deg, #059669 0%, #047857 100%);
+    }
+
+    .activity-header h4 {
+      color: #fff;
+      font-size: 1.15rem;
+      margin-bottom: 4px;
+    }
+
+    .activity-header p {
+      font-size: 0.8rem;
+      opacity: 0.9;
+    }
+
+    .activity-body {
+      padding: 24px;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .activity-body p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+    }
+
+    .activity-badge-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .activity-pill {
+      background: #F1F5F9;
+      color: var(--navy-dark);
+      font-size: 0.76rem;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 20px;
+    }
+
+    /* =========================================================
+       OFFICIAL INSTITUTIONAL LOGOS & SHIELDS GRID
+       ========================================================= */
+    .partner-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+      margin-top: 30px;
+    }
+
+    .partner-card {
+      background: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      padding: 24px 18px 20px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      transition: var(--transition);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+      position: relative;
+    }
+
+    .partner-card:hover {
+      border-color: var(--usb-orange);
+      box-shadow: var(--card-hover-shadow);
+      transform: translateY(-4px);
+    }
+
+    .partner-card.featured-host {
+      border: 2.5px solid var(--usb-orange);
+      background: linear-gradient(180deg, #FFFFFF 0%, #FFF9F5 100%);
+      box-shadow: 0 10px 25px rgba(230, 81, 0, 0.12);
+    }
+
+    .partner-card.featured-red {
+      border: 2px solid #0A192F;
+      background: #ffffff;
+    }
+
+    .host-badge-ribbon {
+      position: absolute;
+      top: -11px;
+      background: linear-gradient(135deg, var(--usb-orange) 0%, var(--usb-red) 100%);
+      color: #fff;
+      font-size: 0.7rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      padding: 3px 12px;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(230, 81, 0, 0.3);
+    }
+
+    .partner-logo-container {
+      width: 100%;
+      height: 90px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 16px;
+      padding: 8px;
+      background: #FAFAFA;
+      border-radius: 10px;
+      border: 1px solid #F1F5F9;
+    }
+
+    .partner-logo-img {
+      max-height: 72px;
+      max-width: 150px;
+      width: auto;
+      object-fit: contain;
+      filter: drop-shadow(0 2px 4px rgba(0,0,0,0.04));
+      transition: transform 0.3s ease;
+    }
+
+    .partner-card:hover .partner-logo-img {
+      transform: scale(1.05);
+    }
+
+    .partner-info {
+      width: 100%;
+    }
+
+    .partner-name {
+      font-weight: 700;
+      font-size: 0.92rem;
+      color: var(--navy-dark);
+      margin-bottom: 4px;
+      line-height: 1.3;
+    }
+
+    .partner-role {
+      font-size: 0.78rem;
+      color: var(--usb-orange);
+      font-weight: 600;
+      line-height: 1.3;
+    }
+
+    /* ROI Summary Section */
+    .roi-section {
+      background: linear-gradient(180deg, #F8FAFC 0%, #EDF2F7 100%);
+      border-top: 1px solid var(--border-color);
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .roi-box {
+      background: #ffffff;
+      border-radius: 16px;
+      border: 1px solid var(--border-color);
+      padding: 35px;
+      box-shadow: var(--card-shadow);
+    }
+
+    .roi-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 35px;
+      align-items: center;
+    }
+
+    .investment-col h4 {
+      color: var(--usb-red);
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .return-col h4 {
+      color: var(--emerald-accent);
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .checklist {
+      list-style: none;
+    }
+
+    .checklist li {
+      margin-bottom: 12px;
+      font-size: 0.92rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+    }
+
+    .checklist.invest li i {
+      color: var(--usb-orange);
+      margin-top: 3px;
+    }
+
+    .checklist.return li i {
+      color: var(--emerald-accent);
+      margin-top: 3px;
+    }
+
+    /* Next Steps Timeline */
+    .timeline-steps {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      position: relative;
+      margin-top: 40px;
+    }
+
+    .step-card {
+      background: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 24px 20px;
+      position: relative;
+      box-shadow: var(--card-shadow);
+    }
+
+    .step-number {
+      width: 36px;
+      height: 36px;
+      background: var(--navy-dark);
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 0.9rem;
+      margin-bottom: 15px;
+    }
+
+    .step-card.active .step-number {
+      background: var(--usb-orange);
+    }
+
+    .step-title {
+      font-size: 1rem;
+      margin-bottom: 6px;
+      color: var(--navy-dark);
+    }
+
+    .step-desc {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+    }
+
+    /* Executive Signature & Footer */
+    .executive-footer {
+      background: var(--navy-dark);
+      color: #CBD5E1;
+      padding: 60px 0 30px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr;
+      gap: 40px;
+      margin-bottom: 40px;
+      padding-bottom: 40px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .footer-brand h4 {
+      color: #fff;
+      font-size: 1.3rem;
+      margin-bottom: 12px;
+    }
+
+    .footer-brand p {
+      font-size: 0.88rem;
+      line-height: 1.6;
+      color: #94A3B8;
+    }
+
+    .footer-links h5 {
+      color: #fff;
+      font-size: 0.95rem;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .footer-links ul {
+      list-style: none;
+    }
+
+    .footer-links ul li {
+      margin-bottom: 10px;
+      font-size: 0.85rem;
+    }
+
+    .footer-links ul li a {
+      color: #94A3B8;
+      text-decoration: none;
+      transition: var(--transition);
+    }
+
+    .footer-links ul li a:hover {
+      color: var(--usb-orange-light);
+    }
+
+    .copyright {
+      text-align: center;
+      font-size: 0.8rem;
+      color: #64748B;
+    }
+
+    /* Print Specific Styles */
+    @media print {
+      body {
+        background: #fff;
+        color: #000;
+      }
+
+      header, .top-bar, .hero-cta-group, .action-buttons, .no-print {
+        display: none !important;
+      }
+
+      .hero-executive {
+        background: none !important;
+        color: #000 !important;
+        padding: 20px 0 !important;
+      }
+
+      .hero-title {
+        color: #000 !important;
+        font-size: 2rem !important;
+      }
+
+      .hero-title span.highlight {
+        color: #B71C1C !important;
+        -webkit-text-fill-color: #B71C1C !important;
+      }
+
+      .hero-desc {
+        color: #333 !important;
+      }
+
+      .hero-summary-card {
+        background: #f8fafc !important;
+        border: 1px solid #ccc !important;
+        color: #000 !important;
+      }
+
+      .metric-number {
+        color: #000 !important;
+      }
+
+      .springer-box {
+        background: #f1f5f9 !important;
+        color: #000 !important;
+        border: 1px solid #ccc !important;
+      }
+
+      .springer-box h3, .springer-feature-card h4 {
+        color: #000 !important;
+      }
+
+      .springer-box p, .springer-feature-card p {
+        color: #333 !important;
+      }
+
+      .comparison-wrapper, .space-card, .benefit-card, .roi-box, .partner-card {
+        box-shadow: none !important;
+        border: 1px solid #bbb !important;
+        page-break-inside: avoid;
+      }
+
+      .benefits-grid, .space-req-grid, .activities-grid, .partner-grid {
+        grid-template-columns: 1fr 1fr !important;
+      }
+
+      section {
+        padding: 25px 0 !important;
+      }
+    }
+
+    /* Responsive */
+    @media (max-width: 992px) {
+      .hero-grid, .space-req-grid, .springer-box, .roi-grid, .footer-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .benefits-grid, .activities-grid, .partner-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .value-strip-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .timeline-steps {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .benefits-grid, .activities-grid, .value-strip-grid, .partner-grid, .timeline-steps {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-title {
+        font-size: 1.9rem;
+      }
+
+      .nav-links {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Executive Notice Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <span class="badge-usb">Dossier Ejecutivo</span>
+        <span>Propuesta Institucional: Sede Oficial del Congreso Internacional TECNOVA 2026</span>
+      </div>
+      <div class="action-buttons no-print">
+        <button class="btn-action-sm" onclick="window.print()">
+          <i class="bi bi-printer"></i> Imprimir / Guardar PDF
+        </button>
+        <a href="https://www.congresotecnova.com/#inicio" target="_blank" class="btn-action-sm">
+          <i class="bi bi-box-arrow-up-right"></i> Web Oficial TECNOVA
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header Nav -->
+  <header>
+    <div class="container header-nav">
+      <div class="logos-brand">
+        <!-- Logo USB -->
+        <div class="header-usb-brand">
+          <img src="assets/logo_usbbog.png" onerror="this.src='https://www.congresotecnova.com/assets/logo_usbbog.png'" alt="Escudo Universidad de San Buenaventura" class="header-usb-logo">
+          <div class="usb-logo-tag">
+            <span class="title">UNIVERSIDAD DE SAN BUENAVENTURA</span>
+            <span class="sub">Sede Bogotá • Vicerrectorías & Decanaturas</span>
+          </div>
+        </div>
+
+        <!-- Logo TECRED -->
+        <div class="tecnova-brand">
+          <img src="assets/logo_tecred.png" onerror="this.src='https://www.congresotecnova.com/assets/logo_tecred.png'" alt="Logo Red TEC-RED" class="header-tecred-logo">
+          <div>
+            <span class="brand-pill">TECNOVA <span>2026</span></span>
+            <div style="font-size: 0.72rem; font-weight: 700; color: var(--navy-dark); text-transform: uppercase;">RED TEC-RED</div>
+          </div>
+        </div>
+      </div>
+
+      <ul class="nav-links no-print">
+        <li><a href="#justificacion">Justificación</a></li>
+        <li><a href="#compromisos">Matriz de Aportes</a></li>
+        <li><a href="#beneficios">Retorno para USB</a></li>
+        <li><a href="#espacios">Espacios Requeridos</a></li>
+        <li><a href="#aliados">Instituciones & Escudos</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-executive">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-tagline">
+              <i class="bi bi-globe-americas"></i> I CONGRESO INTERNACIONAL TECNOVA 2026 • RED TEC-RED
+            </div>
+            <h1 class="hero-title">
+              La <span class="highlight">Universidad de San Buenaventura</span> como Sede Anfitriona Pionera
+            </h1>
+            <p class="hero-desc">
+              Una alianza interinstitucional de alto impacto donde la red TEC-RED y universidades aliadas <strong>asumen la logística, transmisiones técnicas, conferencistas y catering</strong>, permitiendo a la USB posicionarse como epicentro de innovación, empleabilidad y divulgación científica con costo operativo cero.
+            </p>
+            <div class="hero-cta-group no-print">
+              <a href="#compromisos" class="btn-primary-hero">
+                <i class="bi bi-diagram-3-fill"></i> Ver Distribución de Cargas
+              </a>
+              <a href="#beneficios" class="btn-outline-hero">
+                <i class="bi bi-award-fill"></i> Conocer Beneficios USB
+              </a>
+            </div>
+          </div>
+
+          <!-- Summary Metric Card -->
+          <div class="hero-summary-card">
+            <div class="summary-card-header">
+              <h3>Ficha Ejecutiva de Oportunidad</h3>
+              <span class="badge-usb" style="background: var(--usb-orange);">11-13 NOV 2026</span>
+            </div>
+            <div class="metric-grid">
+              <div class="metric-box">
+                <div class="metric-number">100 Pax</div>
+                <div class="metric-label">Capacidad de espacio requerida (Auditorio)</div>
+              </div>
+              <div class="metric-box" style="border-left-color: var(--emerald-accent);">
+                <div class="metric-number">$0 COP</div>
+                <div class="metric-label">Costo en catering / refrigerios para la USB</div>
+              </div>
+              <div class="metric-box" style="border-left-color: var(--blue-accent);">
+                <div class="metric-number">100%</div>
+                <div class="metric-label">Streaming por Univ. Militar & Distrital</div>
+              </div>
+              <div class="metric-box" style="border-left-color: var(--purple-accent);">
+                <div class="metric-number">Springer</div>
+                <div class="metric-label">Ruta de indexación internacional</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KEY VALUE PROPOSITION STRIP -->
+    <div class="key-value-strip">
+      <div class="container">
+        <div class="value-strip-grid">
+          <div class="value-item">
+            <div class="value-icon"><i class="bi bi-building-check"></i></div>
+            <div>
+              <div class="value-title">Sede Anfitriona Pionera</div>
+              <div class="value-sub">Liderazgo de marca en el I Congreso Internacional TECNOVA.</div>
+            </div>
+          </div>
+          <div class="value-item">
+            <div class="value-icon"><i class="bi bi-briefcase-fill"></i></div>
+            <div>
+              <div class="value-title">Feria Compensar</div>
+              <div class="value-sub">Empleabilidad directa para estudiantes y egresados USB.</div>
+            </div>
+          </div>
+          <div class="value-item">
+            <div class="value-icon"><i class="bi bi-broadcast-pin"></i></div>
+            <div>
+              <div class="value-title">Soporte Técnico Total</div>
+              <div class="value-sub">Transmisión audiovisual y staff provisto por aliadas.</div>
+            </div>
+          </div>
+          <div class="value-item">
+            <div class="value-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
+            <div>
+              <div class="value-title">Impulso a Investigación</div>
+              <div class="value-sub">Talleres prácticos y ruta a publicaciones Springer.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION: JUSTIFICACIÓN & MODELO COLABORATIVO -->
+    <section id="justificacion" class="section-bg">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge badge-usb-subtle">Justificación Estratégica</span>
+          <h2 class="section-title">¿Por qué es una decisión estratégica para la Universidad de San Buenaventura?</h2>
+          <p class="section-description">
+            El <strong>I Congreso Internacional de Innovación Tecnológica Aplicada (TECNOVA 2026)</strong>, convocado por la red TEC-RED, une a las universidades más representativas de Bogotá y Latinoamérica bajo un modelo de cooperación distributiva donde la USB maximiza su prestigio y beneficio sin incurrir en desgastes presupuestales.
+          </p>
+        </div>
+
+        <div class="roi-box">
+          <div class="roi-grid">
+            <div class="investment-col">
+              <h4><i class="bi bi-box-arrow-in-right"></i> Lo que aporta la Universidad de San Buenaventura</h4>
+              <p style="font-size:0.9rem; color:var(--text-muted); margin-bottom:15px;">
+                Un requerimiento físico puntual y perfectamente delimitado:
+              </p>
+              <ul class="checklist invest">
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  <div><strong>Auditorio o Salón Principal:</strong> Capacidad para aprox. 100 personas para actos inaugurales y conferencias magistrales.</div>
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  <div><strong>Acceso a Espacio para Talleres:</strong> Salón auxiliar / sala de cómputo para los talleres dirigidos a los propios estudiantes de la USB.</div>
+                </li>
+                <li>
+                  <i class="bi bi-check-circle-fill"></i>
+                  <div><strong>Disponibilidad durante las fechas del evento:</strong> Del 11 al 13 de Noviembre de 2026.</div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="return-col">
+              <h4><i class="bi bi-graph-up-arrow"></i> Lo que recibe la Universidad de San Buenaventura (ROI)</h4>
+              <p style="font-size:0.9rem; color:var(--text-muted); margin-bottom:15px;">
+                Retorno institucional inmediato y de largo plazo para acreditación:
+              </p>
+              <ul class="checklist return">
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                  <div><strong>Visibilidad Internacional de Marca:</strong> USB destacada como anfitriona en transmisiones internacionales y web oficial.</div>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                  <div><strong>Feria de Empleabilidad Compensar:</strong> Espacio articulado en el campus para vinculación laboral de la comunidad Bonaventuriana y asistentes.</div>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                  <div><strong>Alimentación y Logística 100% Cubierta:</strong> Almuerzos y refrigerios cubiertos por las demás universidades de TECRED.</div>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                  <div><strong>Producción y Streaming Internacional:</strong> Operado por Univ. Militar Nueva Granada y Univ. Distrital.</div>
+                </li>
+                <li>
+                  <i class="bi bi-star-fill"></i>
+                  <div><strong>Capacitación Certificada:</strong> Taller práctico aplicado y muestra de emprendimiento para estudiantes USB.</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: DISTRIBUCIÓN DE COMPROMISOS (MATRIZ INTERINSTITUCIONAL CON LOGOS) -->
+    <section id="compromisos" style="background:#fff;">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge badge-blue-subtle">Modelo Colaborativo TECRED</span>
+          <h2 class="section-title">Matriz de Distribución de Cargas y Responsabilidades</h2>
+          <p class="section-description">
+            Demostración clara de cómo las instituciones aliadas absorben los costos operativos, logísticos y tecnológicos, asegurando una carga mínima y altamente eficiente para la USB.
+          </p>
+        </div>
+
+        <div class="comparison-wrapper">
+          <div class="comparison-header">
+            <div>
+              <h3>Compromisos Asumidos por la Red TEC-RED</h3>
+              <p style="font-size:0.85rem; opacity:0.9; margin-top:2px;">Coordinación interinstitucional para el éxito de TECNOVA 2026</p>
+            </div>
+            <div class="shared-pill">
+              <i class="bi bi-shield-check"></i> Cero Sobrecarga Presupuestal para USB
+            </div>
+          </div>
+
+          <table class="matrix-table">
+            <thead>
+              <tr>
+                <th>Componente Operativo</th>
+                <th>Institución Responsable</th>
+                <th>Detalle del Compromiso</th>
+                <th>Estado para USB</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Almuerzos Ejecutivos</strong></td>
+                <td>
+                  <span class="institution-tag">
+                    <img src="assets/logo_tecred.png" onerror="this.src='https://www.congresotecnova.com/assets/logo_tecred.png'" alt="TECRED" class="table-mini-logo">
+                    Demás IES de la Red TECRED
+                  </span>
+                </td>
+                <td>Financiación y suministro de almuerzos para organizadores del evento y para el conferencista principal nacional/internacional.</td>
+                <td><span class="status-covered"><i class="bi bi-check-circle-fill"></i> 100% Cubierto</span></td>
+              </tr>
+              <tr>
+                <td><strong>Personal Logístico en Sitio</strong></td>
+                <td>
+                  <span class="institution-tag">
+                    <img src="assets/logo_ud.png" onerror="this.src='https://www.congresotecnova.com/assets/logo_ud.png'" alt="Univ. Distrital" class="table-mini-logo">
+                    Universidad Distrital
+                  </span>
+                </td>
+                <td>Estudiantes de la Universidad Distrital Francisco José de Caldas conformarán el equipo operativo y de apoyo en el campus.</td>
+                <td><span class="status-covered"><i class="bi bi-check-circle-fill"></i> 100% Cubierto</span></td>
+              </tr>
+              <tr>
+                <td><strong>Refrigerios de Logística</strong></td>
+                <td>
+                  <span class="institution-tag">
+                    <img src="assets/logo_tecred.png" onerror="this.src='https://www.congresotecnova.com/assets/logo_tecred.png'" alt="TECRED" class="table-mini-logo">
+                    Red TECRED / Aliadas
+                  </span>
+                </td>
+                <td>Suministro de refrigerios e hidratación para los estudiantes y personal a cargo de la logística del evento.</td>
+                <td><span class="status-covered"><i class="bi bi-check-circle-fill"></i> 100% Cubierto</span></td>
+              </tr>
+              <tr>
+                <td><strong>Streaming y Producción Audiovisual</strong></td>
+                <td>
+                  <span class="institution-tag">
+                    <img src="assets/logo_umng.png" onerror="this.src='https://www.congresotecnova.com/assets/logo_umng.png'" alt="Univ. Militar" class="table-mini-logo">
+                    Univ. Militar & Univ. Distrital
+                  </span>
+                </td>
+                <td>Despliegue técnico, cámaras, switchers y enlaces de transmisión internacional en vivo para ponencias híbridas.</td>
+                <td><span class="status-covered"><i class="bi bi-check-circle-fill"></i> 100% Cubierto</span></td>
+              </tr>
+              <tr>
+                <td><strong>Feria de Empleabilidad</strong></td>
+                <td>
+                  <span class="institution-tag">
+                    <img src="assets/logo_ucomp.png" onerror="this.src='https://www.congresotecnova.com/assets/logo_ucomp.png'" alt="Compensar" class="table-mini-logo">
+                    Organización Compensar
+                  </span>
+                </td>
+                <td>Montaje del stand/feria de intermediación laboral, orientación ocupacional y vacantes para la comunidad académica.</td>
+                <td><span class="status-covered"><i class="bi bi-check-circle-fill"></i> Aporte Aliado</span></td>
+              </tr>
+              <tr>
+                <td><strong>Espacio Físico Inicial</strong></td>
+                <td>
+                  <span class="institution-tag" style="color:var(--usb-orange);">
+                    <img src="assets/logo_usbbog.png" onerror="this.src='https://www.congresotecnova.com/assets/logo_usbbog.png'" alt="USB" class="table-mini-logo">
+                    Universidad de San Buenaventura
+                  </span>
+                </td>
+                <td>Préstamo de Auditorio para ~100 personas para sesiones magistrales y espacios de talleres prácticos para estudiantes.</td>
+                <td><span class="status-usb-req"><i class="bi bi-pin-map-fill"></i> Aporte Solicitado</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: BENEFICIOS DETALLADOS PARA LA USB -->
+    <section id="beneficios" class="section-bg-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge badge-usb-subtle">Propuesta de Valor</span>
+          <h2 class="section-title">Impacto y Beneficios Institucionales para la USB</h2>
+          <p class="section-description">
+            Oportunidades estratégicas que fortalecen los indicadores de acreditación de alta calidad, proyección social, extensión e internacionalización.
+          </p>
+        </div>
+
+        <div class="benefits-grid">
+          <!-- Card 1 -->
+          <div class="benefit-card highlight-card">
+            <div class="benefit-icon-box"><i class="bi bi-megaphone-fill"></i></div>
+            <h3 class="benefit-title">1. Máxima Visibilidad de Marca</h3>
+            <p class="benefit-text">
+              La USB se posicionará como la sede anfitriona en todas las piezas gráficas, sitio web internacional, redes sociales, comunicados de prensa y transmisiones en directo vistas en múltiples países.
+            </p>
+            <ul class="benefit-points">
+              <li><i class="bi bi-check2"></i> Presencia destacada de imagen institucional.</li>
+              <li><i class="bi bi-check2"></i> Intervención de autoridades USB en la inauguración.</li>
+            </ul>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="benefit-card">
+            <div class="benefit-icon-box"><i class="bi bi-globe2"></i></div>
+            <h3 class="benefit-title">2. Liderazgo Pionero e Internacionalización</h3>
+            <p class="benefit-text">
+              Ser los pioneros de la I edición internacional consolida a la USB como nodo neurálgico en la red TEC-RED y estrecha lazos de cooperación con instituciones de Chile, Perú y Colombia.
+            </p>
+            <ul class="benefit-points">
+              <li><i class="bi bi-check2"></i> Redes de contacto con investigadores internacionales.</li>
+              <li><i class="bi bi-check2"></i> Fortalecimiento de indicadores CNA de internacionalización.</li>
+            </ul>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="benefit-card">
+            <div class="benefit-icon-box"><i class="bi bi-briefcase"></i></div>
+            <h3 class="benefit-title">3. Feria de Empleabilidad Compensar</h3>
+            <p class="benefit-text">
+              Presencia en el campus de la Agencia de Empleo y Fundación Universitaria Compensar, acercando ofertas laborales reales, pasantías y talleres de perfilamiento profesional a los estudiantes y egresados Bonaventurianos.
+            </p>
+            <ul class="benefit-points">
+              <li><i class="bi bi-check2"></i> Conexión directa con empresas empleadoras.</li>
+              <li><i class="bi bi-check2"></i> Beneficio directo para egresados y últimos semestres.</li>
+            </ul>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="benefit-card">
+            <div class="benefit-icon-box"><i class="bi bi-journal-code"></i></div>
+            <h3 class="benefit-title">4. Proyección a Springer & MinCiencias</h3>
+            <p class="benefit-text">
+              El congreso sienta las bases científicas para publicar memorias indexadas en Springer en futuras ediciones, posicionando a los semilleros y grupos de investigación de la USB en la vanguardia editorial.
+            </p>
+            <ul class="benefit-points">
+              <li><i class="bi bi-check2"></i> Indexación en Scopus / Web of Science.</li>
+              <li><i class="bi bi-check2"></i> Comité científico de alto nivel evaluador.</li>
+            </ul>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="benefit-card">
+            <div class="benefit-icon-box"><i class="bi bi-laptop"></i></div>
+            <h3 class="benefit-title">5. Taller Práctico con Estudiantes USB</h3>
+            <p class="benefit-text">
+              Espacio formativo presencial donde los estudiantes de la USB podrán participar y capacitarse en tecnologías emergentes (IA, IoT, Ciberseguridad, Innovación Aplicada).
+            </p>
+            <ul class="benefit-points">
+              <li><i class="bi bi-check2"></i> Certificación de asistencia para participantes.</li>
+              <li><i class="bi bi-check2"></i> Dinamización de la vida universitaria en el campus.</li>
+            </ul>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="benefit-card">
+            <div class="benefit-icon-box"><i class="bi bi-rocket-takeoff-fill"></i></div>
+            <h3 class="benefit-title">6. Muestra de Emprendimiento & Innovación</h3>
+            <p class="benefit-text">
+              Exposición de prototipos tecnológicos, modelos de negocio e iniciativas incubadas, articulados con redes como 1551 Incubadora y Centros de Bionegocios, fomentando la cultura emprendedora Bonaventuriana.
+            </p>
+            <ul class="benefit-points">
+              <li><i class="bi bi-check2"></i> Inspiración para proyectos de grado y semilleros.</li>
+              <li><i class="bi bi-check2"></i> Articulación Universidad - Empresa - Estado.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- SPRINGER ROADMAP BANNER -->
+        <div class="springer-box" id="impacto">
+          <div>
+            <span class="springer-badge"><i class="bi bi-stars"></i> Ruta de Divulgación Científica</span>
+            <h3>Hacia la Publicación e Indexación en Springer</h3>
+            <p>
+              TECNOVA 2026 está estructurado con rigurosos estándares de revisión por pares a doble ciego. La visión a corto y mediano plazo es consolidar las actas del congreso en colecciones de prestigio internacional como <em>Springer Communications in Computer and Information Science (CCIS)</em> o <em>Advances in Intelligent Systems and Computing (AISC)</em>.
+            </p>
+          </div>
+          <div class="springer-features">
+            <div class="springer-feature-card">
+              <h4><i class="bi bi-shield-check" style="color:#FBBF24;"></i> Rigor Académico</h4>
+              <p>Comités científicos interinstitucionales garantizan la calidad de los artículos y prototipos.</p>
+            </div>
+            <div class="springer-feature-card">
+              <h4><i class="bi bi-graph-up" style="color:#38BDF8;"></i> Indicadores Scopus</h4>
+              <p>Impulso a los rankings y citaciones de investigadores de la USB y de la red TECRED.</p>
+            </div>
+            <div class="springer-feature-card">
+              <h4><i class="bi bi-share-fill" style="color:#10B981;"></i> Open Access & Memorias</h4>
+              <p>Distribución global y acceso al repositorio internacional de investigación aplicada.</p>
+            </div>
+            <div class="springer-feature-card">
+              <h4><i class="bi bi-person-check-fill" style="color:#A78BFA;"></i> Paridad Internacional</h4>
+              <p>Revisores internacionales de universidades de Chile, Perú y Colombia.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: ACTIVIDADES COMPLEMENTARIAS DE VALOR AGREGADO -->
+    <section style="background:#fff;">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge badge-usb-subtle">Actividades en Campus</span>
+          <h2 class="section-title">Ecosistema Dinámico en el Campus Bonaventuriano</h2>
+          <p class="section-description">
+            El evento va mucho más allá de un congreso tradicional: genera una experiencia viva y enriquecedora para la comunidad de profesores, investigadores y estudiantes.
+          </p>
+        </div>
+
+        <div class="activities-grid">
+          <!-- Activity 1 -->
+          <div class="activity-card">
+            <div class="activity-header compensar">
+              <h4><i class="bi bi-briefcase-fill"></i> Feria de Empleabilidad</h4>
+              <p>Alianza con Compensar</p>
+            </div>
+            <div class="activity-body">
+              <p>
+                Jornada de empleabilidad presencial para estudiantes de últimos semestres y graduados de la USB, brindando orientación en hoja de vida, pruebas psicotécnicas y postulaciones directas a vacantes del sector tecnológico y administrativo.
+              </p>
+              <div class="activity-badge-list">
+                <span class="activity-pill">Vacantes Tech</span>
+                <span class="activity-pill">Orientación Laboral</span>
+                <span class="activity-pill">Alianza Compensar</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Activity 2 -->
+          <div class="activity-card">
+            <div class="activity-header workshops">
+              <h4><i class="bi bi-terminal-fill"></i> Taller Práctico</h4>
+              <p>Formación y Capacitación Aplicada</p>
+            </div>
+            <div class="activity-body">
+              <p>
+                Espacio práctico y guiado orientado a herramientas de Inteligencia Artificial aplicada, Internet de las Cosas (IoT), automatización y analítica, en el cual los estudiantes de la USB podrán participar activamente.
+              </p>
+              <div class="activity-badge-list">
+                <span class="activity-pill">IA Generativa</span>
+                <span class="activity-pill">IoT & Sensores</span>
+                <span class="activity-pill">Certificado Oficial</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Activity 3 -->
+          <div class="activity-card">
+            <div class="activity-header entrepreneurship">
+              <h4><i class="bi bi-lightbulb-fill"></i> Casos de Emprendimiento</h4>
+              <p>Innovación y Transferencia de Tecnología</p>
+            </div>
+            <div class="activity-body">
+              <p>
+                Presentación de casos de éxito de startups nacidas en la academia, incubadoras de negocios (1551 de Perú, Bionegocios) y paneles interactivos sobre cómo llevar un proyecto de grado al mercado real.
+              </p>
+              <div class="activity-badge-list">
+                <span class="activity-pill">Spin-offs</span>
+                <span class="activity-pill">Prototipos Reales</span>
+                <span class="activity-pill">Incubación 1551</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: FICHA TÉCNICA DE ESPACIOS REQUERIDOS -->
+    <section id="espacios" class="section-bg-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge badge-blue-subtle">Requerimientos Físicos</span>
+          <h2 class="section-title">Especificaciones de los Espacios Solicitados a la USB</h2>
+          <p class="section-description">
+            Detalle claro, razonable y dimensionado para la toma de decisión de la Dirección de Planta Física y Vicerrectoría.
+          </p>
+        </div>
+
+        <div class="space-req-grid">
+          <!-- Space Card 1 -->
+          <div class="space-card">
+            <div class="space-header">
+              <div class="space-icon"><i class="bi bi-mic-fill"></i></div>
+              <div class="space-title-block">
+                <h3>Auditorio Principal / Sala Magistral</h3>
+                <p>Para ponencias centrales y conferencias magistrales</p>
+              </div>
+            </div>
+            <ul class="req-list">
+              <li>
+                <span class="label"><i class="bi bi-people"></i> Aforo Estimado:</span>
+                <span class="value">Aprox. 100 personas</span>
+              </li>
+              <li>
+                <span class="label"><i class="bi bi-calendar-check"></i> Fechas requeridas:</span>
+                <span class="value">11, 12 y 13 de Noviembre 2026</span>
+              </li>
+              <li>
+                <span class="label"><i class="bi bi-clock"></i> Horario estimado:</span>
+                <span class="value">8:00 a.m. a 5:00 p.m.</span>
+              </li>
+              <li>
+                <span class="label"><i class="bi bi-display"></i> Equipamiento básico:</span>
+                <span class="value">Videoproyector / Pantalla y Audio</span>
+              </li>
+              <li>
+                <span class="label"><i class="bi bi-broadcast"></i> Soporte de Streaming:</span>
+                <span class="value" style="color:var(--emerald-accent);">Operado por Univ. Militar / Distrital</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Space Card 2 -->
+          <div class="space-card">
+            <div class="space-header">
+              <div class="space-icon" style="background:rgba(2, 132, 199, 0.12); color:var(--blue-accent);">
+                <i class="bi bi-laptop"></i>
+              </div>
+              <div class="space-title-block">
+                <h3>Espacio para Talleres y Feria</h3>
+                <p>Salón auxiliar o área de foyer/pasillo universitario</p>
+              </div>
+            </div>
+            <ul class="req-list">
+              <li>
+                <span class="label"><i class="bi bi-door-open"></i> Sala de Talleres:</span>
+                <span class="value">Salón o aula para 30-40 estudiantes</span>
+              </li>
+              <li>
+                <span class="label"><i class="bi bi-shop"></i> Área Feria Empleabilidad:</span>
+                <span class="value">Hall / pasillo / área común para stands</span>
+              </li>
+              <li>
+                <span class="label"><i class="bi bi-person-workspace"></i> Personal de Control:</span>
+                <span class="value" style="color:var(--emerald-accent);">Estudiantes de apoyo Univ. Distrital</span>
+              </li>
+              <li>
+                <span class="label"><i class="bi bi-cup-straw"></i> Zona de Refrigerios:</span>
+                <span class="value" style="color:var(--emerald-accent);">Suministros cubiertos por TECRED</span>
+              </li>
+              <li>
+                <span class="label"><i class="bi bi-wifi"></i> Conectividad:</span>
+                <span class="value">Acceso a red WiFi institucional</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: RED DE ALIADOS E INSTITUCIONES PARTICIPANTES CON ESCUDOS Y LOGOS REALES -->
+    <section id="aliados" style="background:#fff;">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge badge-usb-subtle">Respaldo Institucional</span>
+          <h2 class="section-title">Instituciones Organizadoras y Redes Aliadas al Congreso</h2>
+          <p class="section-description">
+            Escudos y logotipos de las universidades y centros de innovación que integran la red TEC-RED y respaldan conjuntamente a la USB como sede de TECNOVA 2026.
+          </p>
+        </div>
+
+        <div class="partner-grid">
+          <!-- 1. Red TEC-RED -->
+          <div class="partner-card featured-red">
+            <div class="partner-logo-container">
+              <img src="assets/logo_tecred.png" onerror="this.src='https://www.congresotecnova.com/assets/logo_tecred.png'" alt="Logo Red TEC-RED" class="partner-logo-img">
+            </div>
+            <div class="partner-info">
+              <div class="partner-name">Red TEC-RED</div>
+              <div class="partner-role">Red Convocante Principal</div>
+            </div>
+          </div>
+
+          <!-- 2. Universidad Distrital -->
+          <div class="partner-card">
+            <div class="partner-logo-container">
+              <img src="assets/logo_ud.png" onerror="this.src='https://www.congresotecnova.com/assets/logo_ud.png'" alt="Escudo Universidad Distrital Francisco José de Caldas" class="partner-logo-img">
+            </div>
+            <div class="partner-info">
+              <div class="partner-name">Universidad Distrital FJC</div>
+              <div class="partner-role">Logística, Refrigerios & Streaming</div>
+            </div>
+          </div>
+
+          <!-- 3. Univ. Militar Nueva Granada -->
+          <div class="partner-card">
+            <div class="partner-logo-container">
+              <img src="assets/logo_umng.png" onerror="this.src='https://www.congresotecnova.com/assets/logo_umng.png'" alt="Escudo Universidad Militar Nueva Granada" class="partner-logo-img">
+            </div>
+            <div class="partner-info">
+              <div class="partner-name">Univ. Militar Nueva Granada</div>
+              <div class="partner-role">Producción Audiovisual & Transmisión</div>
+            </div>
+          </div>
+
+          <!-- 4. Universidad de San Buenaventura (HOST DESTACADO) -->
+          <div class="partner-card featured-host">
+            <div class="host-badge-ribbon">Sede Anfitriona</div>
+            <div class="partner-logo-container" style="background:#FFF3E0; border-color:#FFE0B2;">
+              <img src="assets/logo_usbbog.png" onerror="this.src='https://www.congresotecnova.com/assets/logo_usbbog.png'" alt="Escudo Universidad de San Buenaventura" class="partner-logo-img">
+            </div>
+            <div class="partner-info">
+              <div class="partner-name" style="color:var(--usb-red); font-weight:800;">Univ. de San Buenaventura</div>
+              <div class="partner-role" style="color:var(--usb-orange); font-weight:800;">Sede Anfitriona Oficial 2026</div>
+            </div>
+          </div>
+
+          <!-- 5. Fundación Universitaria Compensar -->
+          <div class="partner-card">
+            <div class="partner-logo-container">
+              <img src="assets/logo_ucomp.png" onerror="this.src='https://www.congresotecnova.com/assets/logo_ucomp.png'" alt="Logo Fundación Universitaria Compensar" class="partner-logo-img">
+            </div>
+            <div class="partner-info">
+              <div class="partner-name">Fundación Univ. Compensar</div>
+              <div class="partner-role">Feria de Empleabilidad & Apoyo</div>
+            </div>
+          </div>
+
+          <!-- 6. Centro de Innovación para Bionegocios -->
+          <div class="partner-card">
+            <div class="partner-logo-container">
+              <img src="assets/logo_bionegocios.jpg" onerror="this.src='https://www.congresotecnova.com/assets/logo_bionegocios.jpg'" alt="Logo Centro de Innovación para Bionegocios" class="partner-logo-img">
+            </div>
+            <div class="partner-info">
+              <div class="partner-name">Centro para Bionegocios</div>
+              <div class="partner-role">Muestra de Sostenibilidad</div>
+            </div>
+          </div>
+
+          <!-- 7. 1551 Incubadora (Perú) -->
+          <div class="partner-card">
+            <div class="partner-logo-container">
+              <img src="assets/logo_1551.png" onerror="this.src='https://www.congresotecnova.com/assets/logo_1551.png'" alt="Logo 1551 Incubadora de Empresas Innovadoras" class="partner-logo-img">
+            </div>
+            <div class="partner-info">
+              <div class="partner-name">1551 Incubadora (Perú)</div>
+              <div class="partner-role">Muestra de Emprendimiento</div>
+            </div>
+          </div>
+
+          <!-- 8. Universidad de Antofagasta (Chile) -->
+          <div class="partner-card">
+            <div class="partner-logo-container">
+              <img src="assets/logo_uantof.jpg" onerror="this.src='https://www.congresotecnova.com/assets/logo_uantof.jpg'" alt="Escudo Universidad de Antofagasta" class="partner-logo-img">
+            </div>
+            <div class="partner-info">
+              <div class="partner-name">Univ. de Antofagasta (Chile)</div>
+              <div class="partner-role">Par Académico Internacional</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: RUTA DE ACCIÓN & PRÓXIMOS PASOS -->
+    <section class="section-bg-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge badge-usb-subtle">Cronograma de Articulación</span>
+          <h2 class="section-title">Próximos Pasos Sugeridos para la Formalización</h2>
+          <p class="section-description">
+            Ruta sencilla para validar los espacios y coordinar la logística con el comité de TEC-RED.
+          </p>
+        </div>
+
+        <div class="timeline-steps">
+          <div class="step-card active">
+            <div class="step-number">1</div>
+            <div class="step-title">Aval Institucional</div>
+            <div class="step-desc">Aprobación de la solicitud de reserva del auditorio (100 pax) y salones de talleres.</div>
+          </div>
+          <div class="step-card">
+            <div class="step-number">2</div>
+            <div class="step-title">Visita Técnica</div>
+            <div class="step-desc">Reunión de 30 min con equipo audiovisual de Univ. Militar y Distrital para revisar conectividad.</div>
+          </div>
+          <div class="step-card">
+            <div class="step-number">3</div>
+            <div class="step-title">Lanzamiento de Marca</div>
+            <div class="step-desc">Publicación oficial de la USB como Sede en la web congresotecnova.com y canales de difusión.</div>
+          </div>
+          <div class="step-card">
+            <div class="step-number">4</div>
+            <div class="step-title">Ejecución del Congreso</div>
+            <div class="step-desc">Desarrollo del evento del 11 al 13 de Noviembre de 2026 con soporte 100% articulado.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- EXECUTIVE FOOTER -->
+  <footer class="executive-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h4>I Congreso Internacional TECNOVA 2026</h4>
+          <p>
+            Red de Cooperación Tecnológica <strong>TEC-RED</strong>.<br>
+            Una iniciativa transformadora orientada a convertir el conocimiento y la innovación aplicada en soluciones reales para el desarrollo productivo y social.
+          </p>
+          <div style="margin-top: 15px; font-size: 0.82rem; color: #94A3B8;">
+            <i class="bi bi-link-45deg"></i> Sitio oficial: <a href="https://www.congresotecnova.com" target="_blank" style="color: var(--usb-orange-light); text-decoration: underline;">www.congresotecnova.com</a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h5>Ejes Temáticos del Congreso</h5>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> Inteligencia Artificial & Analítica</li>
+            <li><i class="bi bi-chevron-right"></i> IoT, Automatización & Robótica</li>
+            <li><i class="bi bi-chevron-right"></i> Ciberseguridad & Infraestructura</li>
+            <li><i class="bi bi-chevron-right"></i> Bioinnovación & Sostenibilidad</li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h5>Contacto y Coordinación</h5>
+          <ul>
+            <li><i class="bi bi-envelope"></i> Red TEC-RED / Comité Organizador</li>
+            <li><i class="bi bi-geo-alt"></i> Bogotá D.C., Colombia</li>
+            <li><i class="bi bi-calendar3"></i> 11 - 13 de Noviembre, 2026</li>
+            <li><i class="bi bi-file-earmark-pdf"></i> Documento de Consulta Interna USB</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>© 2026 Red TEC-RED & Universidad de San Buenaventura. Documento ejecutivo de propuesta de sede institucional para directivas.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
